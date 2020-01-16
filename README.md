@@ -2,39 +2,33 @@
 
 
 Project on Artificial Intelligence Course. A model tailored to the exact business that detect fraud users.
+Read more in the [report](https://docs.google.com/document/d/18nYxClEafZM6r_K4UYGubT_YWmUrPXyMMd0Z32atFTM/edit?usp=sharing)
 
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+You don't need to clone this project to run it! However, we are not able to provide you the full data due to the NDA.
+The part of the code that you can run is marked with --REPRODUCIBLE PART--. Thus you can check how the saved models perform on the test data.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Read more in requirements.txt
 
 
-### Installing
+### Running the code
 
-A step by step series of examples that tell you how to get a development env running
+For accessing the saved models and test data, click [here](https://drive.google.com/drive/folders/11-TkLaYVBBh9MzRTlkjtEXDHQZ88jtXF?usp=sharing). You need to save it in your Drive in order that Colab could access the files (see the screenshot below)
 
-Say what the step will be
+Todo: add screeenshot of adding a folder to Drive
 
-```
-Give the example
-```
-
-And repeat
+After that you should mount your drive in Colab(cell in our notebook with code as below) and run imports(next cell).
+You can scroll through the non-reproducible part and still see the code results.
 
 ```
-until finished
+from google.colab import drive
+drive.mount('/content/drive/')
 ```
 
-End with an example of getting some data out of the system or using it for a little demo
-
-
-```
-Give an example
-```
 
 
 ## Built With
