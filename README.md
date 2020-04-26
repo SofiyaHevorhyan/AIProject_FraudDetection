@@ -17,9 +17,7 @@ Read more in requirements.txt
 
 ### Running the code
 
-For accessing the saved models and test data, click [here](https://drive.google.com/drive/folders/11-TkLaYVBBh9MzRTlkjtEXDHQZ88jtXF?usp=sharing). You need to save it in your Drive in order that Colab could access the files (see the screenshot below)
-
-Todo: add screeenshot of adding a folder to Drive
+For accessing the saved models and test data, click [here](https://drive.google.com/drive/folders/11-TkLaYVBBh9MzRTlkjtEXDHQZ88jtXF?usp=sharing). You need to save it in your Drive in order that Colab could access the files.
 
 After that you should mount your drive in Colab(cell in our notebook with code as below) and run imports(next cell).
 You can scroll through the non-reproducible part and still see the code results.
